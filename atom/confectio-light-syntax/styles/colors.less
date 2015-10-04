@@ -1,0 +1,61 @@
+// These colors are specific to the theme. Do not use in a package!
+
+// Config -----------------------------------
+@syntax-hue:          210;
+@syntax-saturation:   20%;
+@syntax-brightness:   96%;
+
+// Base colors -----------------------------------
+@syntax-accent: hsl(@syntax-hue, 71%, 47%);
+@syntax-guide:  fade(@syntax-fg, 16%);
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+
+// Monochrome -----------------------------------
+@mono-1:  hsl(@syntax-hue, 8%, 16%);
+@mono-2:  hsl(@syntax-hue, 8%, 38%);
+@mono-3:  hsl(@syntax-hue, 8%, 60%);
+
+@very-light-gray: hsl(@syntax-hue, 8%, 76%);
+@light-gray:      hsl(@syntax-hue, 8%, 60%);
+@gray:            hsl(@syntax-hue, 8%, 38%);
+@dark-gray:       hsl(@syntax-hue, 8%, 16%);
+@very-dark-gray:  hsl(@syntax-hue, 8%, 10%);
+
+// Colors -----------------------------------
+@red:     hsl(  0, 67%, 40%); // #AA2222; <- Red
+@orange:  hsl( 18, 71%, 53%); // #DD6633; <- Orange
+@orange2: hsl( 30, 86%, 53%); // #EE8822; <- Orange 2
+@yellow:  hsl( 44, 86%, 53%); // #EEBB22; <- Yellow
+@green:   hsl(120, 60%, 33%); // #228822; <- Green
+@teal:    hsl(180, 56%, 30%); // #227777; <- Teal
+@cyan:    hsl(187, 67%, 40%); // #2299AA; <- Cyan
+@blue:    hsl(218, 67%, 40%); // #2255AA; <- Blue
+@purple:  hsl(264, 38%, 43%); // #664499; <- Purple
+@purple2: hsl(315, 67%, 40%); // #AA2288; <- Purple 2
+@magenta: hsl(339, 73%, 50%); // #DD2266; <- Magenta
+
+// Lightened Colors ---------------------------
+@red-l:     desaturate(lighten(@red,     20%), 20%);
+@orange-l:  desaturate(lighten(@orange,  20%), 20%);
+@orange2-l: desaturate(lighten(@orange2, 20%), 20%);
+@yellow-l:  desaturate(lighten(@yellow,  20%), 20%);
+@green-l:   desaturate(lighten(@green,   20%), 20%);
+@teal-l:    desaturate(lighten(@teal,    20%), 20%);
+@cyan-l:    desaturate(lighten(@cyan,    20%), 20%);
+@blue-l:    desaturate(lighten(@blue,    20%), 20%);
+@purple-l:  desaturate(lighten(@purple,  20%), 20%);
+@purple2-l: desaturate(lighten(@purple2, 20%), 20%);
+@magenta-l: desaturate(lighten(@magenta, 20%), 20%);
+
+// Former Colors -----------------------------------
+@hue-1:   hsl(180, 56%, 30%); // <-cyan
+@hue-2:   hsl(218, 67%, 40%); // <-blue
+@hue-3:   hsl(264, 38%, 43%); // <-purple
+@hue-4:   hsl(120, 60%, 33%); // <-green
+
+@hue-5:   hsl(  0, 67%, 40%); // <-red 1
+@hue-5-2: hsl(336, 71%, 47%); // <-red 2
+
+@hue-6:   hsl( 18, 71%, 53%); // <-orange 1
+@hue-6-2: hsl( 30, 86%, 53%); // <-orange 2

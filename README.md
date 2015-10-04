@@ -1,4 +1,3 @@
-Confectio
-=========
+# Confectio
 
-My unique color markup scheme for text editors and IDEs.
+My unique color syntax scheme for text editors and IDEs.
