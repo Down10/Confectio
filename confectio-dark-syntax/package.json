@@ -1,0 +1,16 @@
+{
+  "name": "confectio-dark-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A short description of your syntax theme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dark"
+  ],
+  "repository": "https://github.com/atom/confectio-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
