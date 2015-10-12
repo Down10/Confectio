@@ -2,11 +2,11 @@
 
 Confectio is a light syntax theme for [Atom](http://atom.io/), a nice treat for being a very good IDE.
 
-By Jesse Burgheimer / @[Down10](https://github.com/down10)
-
 It features bright, primary colors on a light background, based on Atom One Light and inspired by syntax themes [Fizzy][fizzy] and [IR_White][irw] for TextMate, and the [Soda Theme][soda] for SublimeText.
 
 Note that this is only a syntax theme, and will not affect the Atom UI (it works with both the Light and Dark UI schemes).
+
+By Jesse Burgheimer / @[Down10](https://github.com/down10)
 
 
 ### Installation

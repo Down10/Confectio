@@ -3,7 +3,7 @@
 // Config -----------------------------------
 @syntax-hue:          210;
 @syntax-saturation:    4%;
-@syntax-brightness:   96%;
+@syntax-brightness:   98%;
 
 // Base colors -----------------------------------
 @syntax-accent: hsl(@syntax-hue, 71%, 47%);
@@ -12,25 +12,27 @@
 @syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
 
 // Monochrome -----------------------------------
-@mono-1:  hsl(@syntax-hue, 8%, 16%);
+@mono-1:  hsl(@syntax-hue, 8%, 23%);
 @mono-2:  hsl(@syntax-hue, 8%, 38%);
 @mono-3:  hsl(@syntax-hue, 8%, 60%);
+@mono-4:  hsl(@syntax-hue, 8%, 76%);
 
 @very-light-gray: hsl(@syntax-hue, 8%, 76%);
 @light-gray:      hsl(@syntax-hue, 8%, 60%);
 @gray:            hsl(@syntax-hue, 8%, 38%);
-@dark-gray:       hsl(@syntax-hue, 8%, 16%);
-@very-dark-gray:  hsl(@syntax-hue, 8%,  8%);
+@dark-gray:       hsl(@syntax-hue, 8%, 23%);
+@very-dark-gray:  hsl(@syntax-hue, 8%, 16%);
 
 // Colors -----------------------------------
 @red:     hsl(  0, 67%, 40%); // #AA2222; <- Red
-@orange:  hsl( 18, 71%, 53%); // #DD6633; <- Orange
+@orange:  hsl( 18, 71%, 53%); // #DD6622; <- Orange
 @orange2: hsl( 30, 86%, 53%); // #EE8822; <- Orange 2
-@yellow:  hsl( 44, 86%, 53%); // #EEBB22; <- Yellow
+@yellow:  hsl( 44, 73%, 50%); // #DDAA22; <- Yellow
 @green:   hsl(120, 60%, 33%); // #228822; <- Green
 @teal:    hsl(180, 56%, 30%); // #227777; <- Teal
 @cyan:    hsl(187, 67%, 40%); // #2299AA; <- Cyan
 @blue:    hsl(218, 67%, 40%); // #2255AA; <- Blue
+@blue2:   hsl(240, 33%, 40%); // #444488; <- Blue 2
 @purple:  hsl(264, 38%, 43%); // #664499; <- Purple
 @purple2: hsl(315, 67%, 40%); // #AA2288; <- Purple 2
 @magenta: hsl(339, 73%, 50%); // #DD2266; <- Magenta
@@ -44,6 +46,7 @@
 @teal-l:    desaturate(lighten(@teal,    20%), 20%);
 @cyan-l:    desaturate(lighten(@cyan,    20%), 20%);
 @blue-l:    desaturate(lighten(@blue,    20%), 20%);
+@blue2-l:   desaturate(lighten(@blue2,   20%), 20%);
 @purple-l:  desaturate(lighten(@purple,  20%), 20%);
 @purple2-l: desaturate(lighten(@purple2, 20%), 20%);
 @magenta-l: desaturate(lighten(@magenta, 20%), 20%);
