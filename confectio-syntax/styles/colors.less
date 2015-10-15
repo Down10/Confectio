@@ -17,15 +17,15 @@
 @mono-3:  hsl(@syntax-hue, 8%, 60%);
 @mono-4:  hsl(@syntax-hue, 8%, 76%);
 
-@very-light-gray: hsl(@syntax-hue, 8%, 76%);
-@light-gray:      hsl(@syntax-hue, 8%, 60%);
-@gray:            hsl(@syntax-hue, 8%, 38%);
-@dark-gray:       hsl(@syntax-hue, 8%, 23%);
-@very-dark-gray:  hsl(@syntax-hue, 8%, 16%);
+@very-light-gray: hsl(@syntax-hue, 8%, 76%); // #BDC2C7;
+@light-gray:      hsl(@syntax-hue, 8%, 60%); // #9199A1;
+@gray:            hsl(@syntax-hue, 8%, 38%); // #596169;
+@dark-gray:       hsl(@syntax-hue, 8%, 23%); // #363B3F;
+@very-dark-gray:  hsl(@syntax-hue, 8%, 16%); // #26292C;
 
 // Colors -----------------------------------
 @red:     hsl(  0, 67%, 40%); // #AA2222; <- Red
-@orange:  hsl( 18, 71%, 53%); // #DD6622; <- Orange
+@orange:  hsl( 16, 73%, 50%); // #DD5522; <- Orange
 @orange2: hsl( 30, 86%, 53%); // #EE8822; <- Orange 2
 @yellow:  hsl( 44, 73%, 50%); // #DDAA22; <- Yellow
 @green:   hsl(120, 60%, 33%); // #228822; <- Green
@@ -51,14 +51,16 @@
 @purple2-l: desaturate(lighten(@purple2, 20%), 20%);
 @magenta-l: desaturate(lighten(@magenta, 20%), 20%);
 
-// Former Colors -----------------------------------
-@hue-1:   hsl(180, 56%, 30%); // <-cyan
-@hue-2:   hsl(218, 67%, 40%); // <-blue
-@hue-3:   hsl(264, 38%, 43%); // <-purple
-@hue-4:   hsl(120, 60%, 33%); // <-green
-
-@hue-5:   hsl(  0, 67%, 40%); // <-red 1
-@hue-5-2: hsl(336, 71%, 47%); // <-red 2
-
-@hue-6:   hsl( 18, 71%, 53%); // <-orange 1
-@hue-6-2: hsl( 30, 86%, 53%); // <-orange 2
+// Faded Colors ---------------------------
+// @red-l:     fade(@red,     60%);
+// @orange-l:  fade(@orange,  60%);
+// @orange2-l: fade(@orange2, 60%);
+// @yellow-l:  fade(@yellow,  60%);
+// @green-l:   fade(@green,   60%);
+// @teal-l:    fade(@teal,    60%);
+// @cyan-l:    fade(@cyan,    60%);
+// @blue-l:    fade(@blue,    60%);
+// @blue2-l:   fade(@blue2,   60%);
+// @purple-l:  fade(@purple,  60%);
+// @purple2-l: fade(@purple2, 60%);
+// @magenta-l: fade(@magenta, 60%);
