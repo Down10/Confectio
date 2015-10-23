@@ -32,21 +32,6 @@
 @syntax-color-modified: hsl( 40,  90%, 50%);
 @syntax-color-removed:  hsl(  0, 100%, 54%);
 
-// For language entity colors
-@syntax-color-variable:   @hue-5;
-@syntax-color-constant:   @hue-6;
-@syntax-color-property:   @syntax-fg;
-@syntax-color-value:      @syntax-fg;
-@syntax-color-function:   @hue-2;
-@syntax-color-method:     @hue-2;
-@syntax-color-class:      @hue-6-2;
-@syntax-color-keyword:    @hue-3;
-@syntax-color-tag:        @hue-5;
-@syntax-color-attribute:  @hue-6;
-@syntax-color-import:     @hue-3;
-@syntax-color-snippet:    @hue-4;
-
-
 // Custom Syntax Variables -----------------------------------
 // Don't use in packages
 
@@ -54,5 +39,5 @@
 
 @syntax-deprecated-fg: darken(@syntax-color-modified, 30%);
 @syntax-deprecated-bg: @syntax-color-modified;
-@syntax-illegal-fg:    white;
+@syntax-illegal-fg:    @syntax-bg;
 @syntax-illegal-bg:    @syntax-color-removed;

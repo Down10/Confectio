@@ -97,11 +97,11 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .comment {
-  color: @gray;
+  color: @light-gray;
   font-style: italic;
 
   & .punctuation {
-    color: @dark-gray;
+    color: @very-light-gray;
   }
 }
 
@@ -113,7 +113,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.inherited-class {
-    color: @orange2;
+    color: @green;
     font-style: italic;
   }
 
@@ -141,13 +141,13 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @teal;
 
     &.id {
-      color: lighten(@blue, 10%);
+      color: darken(@blue, 10%);
       font-weight: 600;
     }
   }
 
   & .punctuation {
-    // color: @orange2-l;
+    color: @orange2-l;
   }
 }
 
@@ -168,7 +168,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.unit {
-    color: @orange-l;
+    color: saturate(darken(@orange, 20%), 20%);
   }
 
   & .punctuation {
@@ -180,7 +180,7 @@ atom-text-editor .search-results .marker.current-result .region,
   color: @purple2;
 
   &.modifier,
-  &.type {
+  &.type.modifier {
     font-style: italic;
   }
 
@@ -194,7 +194,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.character.escape {
     color: @orange;
-    background-color: fade(@orange, 20%);
+    background-color: fade(@orange, 8%);
     border-radius: 3px;
   }
 
@@ -221,7 +221,7 @@ atom-text-editor .search-results .marker.current-result .region,
   color: @red;
 
   &.interpolation {
-    color: fade(@red, 80%);
+    color: darken(@red, 10%);
   }
 
   &.parameter.function {
@@ -253,7 +253,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.regexp {
     color: @cyan;
-    background-color: fade(@cyan, 20%);
+    background-color: fade(@cyan, 8%);
     border-radius: 3px;
 
     .source.ruby.embedded {
@@ -275,7 +275,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.definition {
     &.comment {
-      color: @dark-gray;
+      color: @very-light-gray;
     }
 
     &.string {
@@ -296,7 +296,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.parameters,
     &.array {
-      color: @gray;
+      color: @light-gray;
     }
 
     &.heading,
@@ -374,7 +374,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.selector {
-    color: @gray;
+    color: @purple;
   }
 
   &.tag {
@@ -386,7 +386,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.separator {
-    background-color: @gray;
+    background-color: @very-light-gray;
     color: @syntax-text-color;
   }
 
@@ -444,7 +444,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.underline.link {
-    color: #88BBFF;
+    color: #3355CC;
     text-decoration: underline;
 
     & .punctuation {
@@ -455,7 +455,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.raw {
     // color: @green;
-    background-color: fade(@green, 20%);
+    background-color: fade(@green, 8%);
     border-radius: 3px;
 
     &.inline {
@@ -480,7 +480,7 @@ atom-text-editor[mini] .scroll-view,
 .source.css {
   // highlight properties/values if they are supported
   .property-name {
-    color: @light-gray;
+    color: @dark-gray;
 
     &.support {
       color: @teal;
@@ -537,19 +537,19 @@ atom-text-editor[mini] .scroll-view,
     }
 
     &.code {
-      // background-color: fade(@magenta, 20%);
+      // background-color: fade(@magenta, 8%);
       // border-radius: 3px;
     }
 
     &.quote {
-      background-color: fade(@orange2, 20%);
+      background-color: fade(@orange2, 8%);
       border-radius: 3px;
       font-style: italic;
     }
 
     &.raw {
       color: @green;
-      background-color: fade(@green, 20%);
+      background-color: fade(@green, 8%);
       border-radius: 3px;
 
       &.support {
@@ -579,7 +579,7 @@ atom-text-editor[mini] .scroll-view,
       color: @teal;
     }
 
-    & .punctuation {
+    & > .punctuation {
       color: @blue-l;
     }
   }

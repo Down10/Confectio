@@ -113,7 +113,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.inherited-class {
-    color: @green;
+    color: @orange2;
     font-style: italic;
   }
 
@@ -160,7 +160,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.operator {
-    color: saturate(lighten(@gray, 15%), 40%);
+    color: saturate(lighten(@gray, 20%), 40%);
   }
 
   &.other.special-method {
@@ -234,17 +234,17 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.deprecated {
-  color: @red;
+  color: @syntax-deprecated-fg;
   text-decoration: underline;
 }
 
 .invalid.illegal {
   color: @syntax-background-color;
-  background-color: @red;
+  background-color: @syntax-illegal-bg;
 }
 
 .invalid.warning {
-  background-color: fade(@yellow, 25%);
+  background-color: @syntax-deprecated-bg;
   border-radius: 3px;
 }
 
@@ -286,7 +286,8 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @red-l;
     }
 
-    &.constant {
+    &.constant,
+    &.entity {
       color: @orange-l;
     }
 
@@ -306,7 +307,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.bold {
-      color: @yellow-l;
+      color: @orange2-l;
       font-weight: 600;
     }
 
@@ -374,7 +375,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.selector {
-    color: @purple;
+    color: @gray;
   }
 
   &.tag {
