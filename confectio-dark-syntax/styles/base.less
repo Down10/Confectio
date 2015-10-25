@@ -106,7 +106,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .entity {
-  color: @orange2;
+  color: @purple;
 
   &.name.type {
     color: @orange2;
@@ -119,7 +119,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.name.function,
   &.name.type.function {
-    color: @blue;
+    color: @purple;
     font-weight: 600;
   }
 
@@ -147,15 +147,15 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   & .punctuation {
-    // color: @orange2-l;
+    // color: @purple-l;
   }
 }
 
 .keyword {
-  color: @purple;
+  color: @blue;
 
   &.control {
-    color: @purple;
+    color: @blue;
     font-weight: 600;
   }
 
@@ -172,7 +172,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   & .punctuation {
-    color: @purple-l;
+    color: @blue-l;
   }
 }
 
@@ -182,6 +182,10 @@ atom-text-editor .search-results .marker.current-result .region,
   &.modifier,
   &.type {
     font-style: italic;
+  }
+
+  &.function {
+    font-weight: 600;
   }
 
   & .punctuation {
@@ -265,6 +269,10 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @red;
   }
 
+  & .constant {
+    background-color: fade(@green, 20%);
+  }
+
   & .punctuation {
     color: @green-l;
   }
@@ -290,8 +298,12 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @orange-l;
     }
 
-    &.keyword {
+    &.entity {
       color: @purple-l;
+    }
+
+    &.keyword {
+      color: @blue-l;
     }
 
     &.parameters,
@@ -333,6 +345,7 @@ atom-text-editor .search-results .marker.current-result .region,
   &.class,
   &.type.class {
     color: @magenta;
+    font-weight: 600;
   }
 
   &.function,
@@ -347,7 +360,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.variable,
   &.type.variable {
-    color: fade(@magenta, 80%);
+    color: fade(@red, 80%);
   }
 
   &.constant,
@@ -505,6 +518,14 @@ atom-text-editor[mini] .scroll-view,
 
     & .punctuation {
       color: @blue-l;
+    }
+  }
+
+  .keyword.control.at-rule {
+    color: @purple;
+
+    & .punctuation {
+      color: @purple-l;
     }
   }
 
