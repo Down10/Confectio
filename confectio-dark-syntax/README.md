@@ -21,7 +21,12 @@ _Confectio_ is a Latin declination for _composing_. In a happy coincidence, a â€
 
 ### Screenshot
 
-![Confectio syntax theme screenshot](https://www.dropbox.com/s/n684gga9z50yl71/Screenshot%202015-10-12%2016.42.06.PNG?dl=0)
+![Confectio Dark syntax theme screenshot](https://raw.githubusercontent.com/Down10/Confectio/master/Confectio%20Dark%20Screenshot.png)
+
+
+### See also
+
+[Confectio Light](https://github.com/Down10/Confectio/tree/master/confectio-light-syntax)
 
 
 [fizzy]: https://github.com/jglovier/fizzy
