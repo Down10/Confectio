@@ -4,7 +4,7 @@
 
 Confectio Dark is a dark syntax theme for [Atom](http://atom.io/), a nice treat for being a very good text editor.
 
-It features bright, primary colors on a light background, based on [Atom One Dark][atomonedark] and inspired by syntax themes [Fizzy][fizzy] and [IR_White][irw] for TextMate, and the [Soda Theme][soda] for SublimeText.
+It features bright, primary colors on a dark background, based on [Atom One Dark][atomonedark] and inspired by syntax themes [Fizzy][fizzy] and [IR_White][irw] for TextMate, and the [Soda Theme][soda] for SublimeText.
 
 Note that this is only a syntax theme, and will not affect the Atom UI (it works with both the Light and Dark UI schemes).
 
@@ -17,6 +17,8 @@ By Jesse Burgheimer / @[Down10](https://github.com/down10)
 
 
 ### Installation
+
+Install from the command line: `apm install confectio-dark-syntax`
 
 This theme can be activated by going to the __Settings > Themes__ section and selecting “Confectio Dark” from the __Syntax Themes__ drop-down menu.
 
