@@ -2,7 +2,7 @@
   "name": "confectio-dark-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "Confectio Dark is a dark syntax theme for Atom, a nice treat for being a very good IDE.",
+  "description": "A dark syntax theme for Atom, a nice treat for being a very good text editor.",
   "keywords": [
     "syntax",
     "theme",
