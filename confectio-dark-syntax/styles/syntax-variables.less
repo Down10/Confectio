@@ -21,8 +21,8 @@
 // Gutter colors
 @syntax-gutter-text-color: @dark-gray;
 @syntax-gutter-text-color-selected: lighten(@syntax-gutter-text-color, 8%);
-@syntax-gutter-background-color: @syntax-bg;
-@syntax-gutter-background-color-selected: lighten(@dark-gray, 8%);
+@syntax-gutter-background-color: lighten(@syntax-bg, 4%);
+@syntax-gutter-background-color-selected: lighten(@syntax-bg, 8%);
 
 // Git colors - For git diff info. i.e. in the gutter
 @syntax-color-renamed:  @blue;
@@ -40,7 +40,7 @@
 @syntax-color-class:      @orange-2;
 @syntax-color-keyword:    @purple;
 @syntax-color-tag:        @red;
-@syntax-color-attribute:  @orange;
+@syntax-color-attribute:  @teal;
 @syntax-color-import:     @purple;
 @syntax-color-snippet:    @green;
 
@@ -51,5 +51,5 @@
 
 @syntax-deprecated-fg: lighten(@syntax-color-modified, 30%);
 @syntax-deprecated-bg: @syntax-color-modified;
-@syntax-illegal-fg:    @syntax-fg;
+@syntax-illegal-fg:    @syntax-bg;
 @syntax-illegal-bg:    @syntax-color-removed;
