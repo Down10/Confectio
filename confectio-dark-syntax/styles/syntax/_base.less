@@ -41,7 +41,7 @@
   }
 
   &.syntax--name.syntax--tag {
-    color: @blue;
+    color: @red;
     font-weight: bold;
   }
 
@@ -225,7 +225,7 @@
     }
 
     &.syntax--keyword {
-      color: @blue-l;
+      color: @purple-l;
     }
 
     &.syntax--parameters,
@@ -416,6 +416,10 @@
     }
   }
 
+  &.syntax--list {
+    color: @red;
+  }
+
   &.syntax--link {
     color: @cyan;
   }
@@ -439,7 +443,7 @@
   }
 
   &.syntax--raw {
-    background-color: fade(@green, 8%);
+    background-color: fade(@green, 20%);
     border-radius: 3px;
 
     &.syntax--inline {
