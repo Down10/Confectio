@@ -13,10 +13,10 @@
 @syntax-accent: hsl(@syntax-hue, 80%, 67%); // #66AAEE
 
 // Monochrome -----------------------------------
-@mono-1:  hsl(@syntax-hue, 8%, 23%); // default text
-@mono-2:  hsl(@syntax-hue, 8%, 38%);
-@mono-3:  hsl(@syntax-hue, 8%, 60%);
-@mono-4:  hsl(@syntax-hue, 8%, 76%);
+@mono-1:          hsl(@syntax-hue, 8%, 23%); // default text
+@mono-2:          hsl(@syntax-hue, 8%, 38%);
+@mono-3:          hsl(@syntax-hue, 8%, 60%);
+@mono-4:          hsl(@syntax-hue, 8%, 76%);
 
 @very-light-gray: hsl(@syntax-hue, 8%, 84%); // #D3D6D9
 @light-gray:      hsl(@syntax-hue, 8%, 76%); // #BDC2C7
@@ -38,6 +38,9 @@
 @purple:   hsl(270, 100%, 73%); // #BB77FF <- Purple
 @purple-2: hsl(292, 100%, 73%); // #EE77FF <- Purple 2
 @magenta:  hsl(338, 100%, 73%); // #FF77AA <- Magenta
+
+@link:     hsl(214, 100%, 77%); // #88BBFF
+@operator: saturate(lighten(@gray, 15%), 40%); // #6699CC
 
 // Faded Colors ---------------------------
 @red-l:      fade(@red,      60%); // #AD5E60
