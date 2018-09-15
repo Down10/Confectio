@@ -1,8 +1,8 @@
 # Confectio Light
 
-[![apm](https://img.shields.io/apm/v/vim-mode.svg)](https://github.com/Down10/confectio-light-syntax) [![apm](https://img.shields.io/apm/dm/vim-mode.svg)](https://github.com/Down10/confectio-light-syntax) [![MIT license](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/Down10/confectio-light-syntax/LICENSE.md)
+[![apm](https://img.shields.io/badge/v/vim-mode.svg)](https://github.com/Down10/Confectio) [![apm](https://img.shields.io/apm/dm/vim-mode.svg)](https://github.com/Down10/confectio-light-syntax) [![MIT license](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/Down10/Confectio/LICENSE.md)
 
-Confectio Light is a light syntax theme for [Atom][atom], a nice treat for being a very good text editor.
+Confectio Light is a light syntax theme treat for [Atom][atom], for being a very good text editor.
 
 It features primary colors on a light background, based primarily on [Atom One Light][atom-one-light] and inspired by syntax themes [Fizzy][fizzy] and [IR_White][ir-white] for TextMate, and the [Soda Theme][soda] for SublimeText.
 
